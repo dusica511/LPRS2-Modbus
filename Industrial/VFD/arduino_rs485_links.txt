@@ -1,0 +1,53 @@
+https://microdigisoft.com/rs-485-serial-communication-between-two-arduino/	--> 	ima primer Master - Slave komunikacije preko dva arduina (sa servo motorom)
+https://www.youtube.com/watch?v=k4guG5-6Mu0 	--> yt video prethodnog primera
+
+*********************************************************+
+
+https://embeddedthere.com/how-to-interface-arduino-with-rs485-modbus-protocol-using-max485-module/	-->	primer Master - Slave sa dva arduina (sa prekidacem koji pali lampicu)
+
+******************************************************************
+
+
+https://microdigisoft.com/esp32-with-modbus-rtu-rs485-protocol-using-arduino-ide/ 	--> 	ovo je vezano za neki drugi projekat, spajanje sa TV-om, ali ima lepo objasnjenje o Modbus-u
+
+********************************************************
+
+https://www.modbus.org/		--> 	stranica o Modbus-u (opste)
+
+********************************************************
+
+https://www.youtube.com/watch?v=nQ4aCfAm0aU	-->	Modbus Register/Example of Master(PC) - Slave(device)
+
+**********************************************************
+
+https://www.electronicscomp.com/max485-ttl-to-rs485-converter-module	--> 	donglica koju koristimo (shop verzija sa karakteristikama)
+
+********************************************************
+
+http://ulasdikme.com/2016/08/21/arduino-modbus-example/		--> Modbus Slave primer (arduino i PC, bez RS485)
+https://www.youtube.com/watch?v=dvjNLzcA8xE		--> Isto Modbus Slave primer
+
+**********************************************
+
+https://www.youtube.com/watch?v=ZR9QEWpGEDo	-->	Arduino Uno i Arduino Nano - Master Slave Example
+
+*************************************************
+
+https://www.youtube.com/watch?v=8XfRKpzkI2k	--> Arduino As Master - Modbus RTU RS485
+https://circuitdigest.com/microcontroller-projects/rs-485-modbus-serial-communication-with-arduino-as-master		--> Arduino As Master - Sajt + objasnjenje
+https://circuitdigest.com/microcontroller-projects/rs485-modbus-serial-communication-using-arduino-uno-as-slave		--> Arduino As Slave - Sajt + objasnjenje
+
+
+***************************************************
+
+https://github.com/multiopti/teaching/blob/master/README.md	-->	neki git za ucenje, nmp
+
+******************************************************
+
+https://www.youtube.com/watch?v=VwPMm-v3970	-->	primer: dva Arduina kao Master-Slave (bez Modbus protokola)
+
+******************************************************
+
+https://www.youtube.com/watch?v=csk0JedtN7Y	-->	primer: ocitavanje temperature uz pomoc dva senzora (dve razlicite adrese)
+
+https://github.com/4-20ma/ModbusMaster/blob/master/examples/RS485_HalfDuplex/RS485_HalfDuplex.ino	-->	GIT: Master-Slave
