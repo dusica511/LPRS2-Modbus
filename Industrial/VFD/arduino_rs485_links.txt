@@ -54,3 +54,45 @@ USB to TTL Arduino:
 https://www.youtube.com/watch?v=csk0JedtN7Y	-->	primer: ocitavanje temperature uz pomoc dva senzora (dve razlicite adrese)
 
 https://github.com/4-20ma/ModbusMaster/blob/master/examples/RS485_HalfDuplex/RS485_HalfDuplex.ino	-->	GIT: Master-Slave
+
+***************************************************************************
+
+Modbus protocol can be implemented using UART with the help of RS485 or RS232 connectors(need not be these 2 always), this again depends upon the type of slave . In this protocol, the slave will respond only if the master sends a correct query to the slave. To get different parameters of slave there will be different queries . Below is an example Query sent by the master and response from slave.
+
+Here am sending the query using a for loop and writing on to serial buffer . You can even send the query like - 01030F4800024709
+
+Test query = {0x01, 0x03, 0x0F, 0x48, 0x00, 0x02, 0x47, 0x09};
+
+0x01 - Slave ID
+
+0x03 - Function code
+
+0x0F - Starting Address High
+
+0x48 - Starting address Low
+
+0x00 - Quantity of registers High
+
+0x02 - Quantity of registers Low
+
+0x47 - CRC High (Calculated)
+
+0x09 - CRC Low (Calculated)
+
+The following data is received from the slave. If the calculated checksum matches with the CRC from the received buffer, the data is stored in RESULT(a variable).
+
+Response: RESULT - {0x01, 0x03, 0x04, 0x77, 0xAB, 0x23, 0xB8, 0x89, 0x25}
+
+0x01 - Slave ID
+
+0x03 - Function code
+
+0x04 - No. of bytes of response
+
+0x77, 0xAB, 0x23, 0xB8 - Data sent by the slave
+
+0x89, 0x25 - Received checksum
+
+8.6K viewsView upvotes
+
+*******************************************************************************************
