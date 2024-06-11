@@ -49,6 +49,7 @@ https://www.youtube.com/watch?v=VwPMm-v3970	-->	primer: dva Arduina kao Master-S
 ******************************************************
 USB to TTL Arduino:
   https://www.youtube.com/watch?v=MUg3Mac-mKE&ab_channel=Brainergiser
+  https://forum.arduino.cc/t/serial-read-from-ev-chargers-modbus/1151534/19
 
 https://www.youtube.com/watch?v=csk0JedtN7Y	-->	primer: ocitavanje temperature uz pomoc dva senzora (dve razlicite adrese)
 
